@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: My Awesome Blog
 description: A personal blog built with GitHub Pages and Jekyll
 author: Anikita
+markdown: kramdown
