@@ -11,14 +11,26 @@ from pathlib import Path
 
 def check_jekyll_installed():
     """Check if Jekyll is installed"""
-    try:
-        result = subprocess.run(['jekyll', '--version'],
-                              capture_output=True, text=True, check=True)
-        print(f"✅ Jekyll found: {result.stdout.strip()}")
-        return True
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        print("❌ Jekyll not found. Install with: gem install jekyll bundler")
-        return False
+    # Try multiple ways to find Jekyll
+    jekyll_paths = [
+        'jekyll',  # In PATH
+        '/opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll',  # macOS Homebrew
+        '/usr/local/bin/jekyll',  # Alternative location
+    ]
+
+    for jekyll_path in jekyll_paths:
+        try:
+            result = subprocess.run([jekyll_path, '--version'],
+                                  capture_output=True, text=True, check=True)
+            print(f"✅ Jekyll found: {result.stdout.strip()}")
+            return True
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            continue
+
+    print("❌ Jekyll not found in common locations.")
+    print("💡 Install with: gem install jekyll bundler")
+    print("💡 Then install theme: gem install jekyll-theme-tactile jekyll-feed")
+    return False
 
 def run_validation():
     """Run validation before starting server"""
@@ -32,20 +44,43 @@ def run_validation():
         print(f"❌ Validation failed:\n{e.stdout}")
         return False
 
+def find_jekyll_executable():
+    """Find the Jekyll executable path"""
+    jekyll_paths = [
+        'jekyll',  # In PATH
+        '/opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll',  # macOS Homebrew
+        '/usr/local/bin/jekyll',  # Alternative location
+    ]
+
+    for jekyll_path in jekyll_paths:
+        try:
+            subprocess.run([jekyll_path, '--version'],
+                          capture_output=True, check=True)
+            return jekyll_path
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            continue
+    return None
+
 def start_jekyll_server():
     """Start Jekyll development server"""
     print("🚀 Starting Jekyll development server...")
     print("📍 Your site will be available at: http://localhost:4000")
     print("🛑 Press Ctrl+C to stop the server")
 
+    jekyll_exe = find_jekyll_executable()
+    if not jekyll_exe:
+        print("❌ Cannot find Jekyll executable")
+        return
+
     try:
         # Run jekyll serve with live reload
-        subprocess.run(['jekyll', 'serve', '--livereload'],
+        subprocess.run([jekyll_exe, 'serve', '--livereload'],
                       cwd='.', check=True)
     except KeyboardInterrupt:
         print("\n🛑 Server stopped by user")
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to start Jekyll server: {e}")
+        print("💡 Try installing missing gems: gem install jekyll-theme-tactile jekyll-feed")
 
 def show_instructions():
     """Show setup instructions"""
@@ -55,9 +90,11 @@ def show_instructions():
     print("1️⃣ Install Jekyll (Ruby required):")
     print("   macOS: brew install ruby")
     print("   Then:  gem install jekyll bundler")
+    print("   Then:  gem install jekyll-theme-tactile jekyll-feed")
     print()
-    print("2️⃣ Test your setup:")
-    print("   python3 dev_server.py")
+    print("2️⃣ If using conda/miniconda:")
+    print("   Deactivate conda first: conda deactivate")
+    print("   Or use system Python: python3 dev_server.py")
     print()
     print("3️⃣ Development workflow:")
     print("   - Make changes to posts or pages")
