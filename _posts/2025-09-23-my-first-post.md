@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My First Post
 date: 2025-09-23
 author: Antonis Nikitakis
