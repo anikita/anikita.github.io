@@ -105,9 +105,11 @@ With the rise of digital platforms, AI, and urbanization, systems became **hyper
 
 This is the era of **participatory design**, **agile systems engineering**, and **design thinking**. The engineer no longer *defines* requirements; they **elicit** them. They use **scenario planning**, **co-creation workshops**, and **digital twins as shared narratives**.
 
-> In Singapore’s **Smart Nation Initiative**, traffic systems were not "optimized" in isolation. They were *co-designed* with citizens through participatory modeling. Researchers have run co‑creation exercises, such as engaging residents to design an autonomous mobility system for their neighborhood, yielding community‑driven designs and priorities
-> 
-> The system *is* the process of engagement—the real-time feedback loops, the citizen reporting apps, the public consultations. The ontology is **participatory**: the system exists only in the act of being discussed, tested, and revised.
+> In Singapore’s **Smart Nation Initiative**, traffic systems were not "optimized" in isolation. They were *co-designed* with citizens through participatory modeling. 
+
+Researchers have run co‑creation exercises, such as engaging residents to design an autonomous mobility system for their neighborhood, yielding community‑driven designs and priorities
+
+The system *is* the process of engagement—the real-time feedback loops, the citizen reporting apps, the public consultations. The ontology is **participatory**: the system exists only in the act of being discussed, tested, and revised.
 
 #### 2.4 The Age of Hermeneutic Systems (2020s–): Systems as Meaning-Making Processes
 
