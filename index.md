@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to Antonis Nikitakis Personal Blog
 
-Hello! This is my personal blog built with GitHub Pages and Jekyll.
+Hello! This is my personal blog built with GitHub Pages.
 
 ## Latest Posts
 

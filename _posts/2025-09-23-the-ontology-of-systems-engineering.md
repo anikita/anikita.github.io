@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Ontology of Systems Engineering: A Hermeneutic and Participatory Construct
+title: "The Ontology of Systems Engineering: A Hermeneutic and Participatory Construct"
 date: 2025-09-23
 author: Antonis Nikitakis
 categories: [blog]
