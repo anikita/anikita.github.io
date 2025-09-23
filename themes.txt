@@ -1,0 +1,43 @@
+# GitHub Pages Jekyll Themes
+# Official themes supported by GitHub Pages
+
+## Minimal & Clean Themes
+jekyll-theme-minimal
+jekyll-theme-slate
+jekyll-theme-tactile
+
+## Colorful & Modern Themes
+jekyll-theme-cayman
+jekyll-theme-modernist
+jekyll-theme-merlot
+jekyll-theme-leap-day
+
+## Retro & Unique Themes
+jekyll-theme-time-machine
+jekyll-theme-hacker
+jekyll-theme-midnight
+
+## Additional Themes
+jekyll-theme-primer
+jekyll-theme-architect
+jekyll-theme-dinky
+
+## Usage in _config.yml
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-tactile
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-modernist
+# theme: jekyll-theme-merlot
+# theme: jekyll-theme-leap-day
+# theme: jekyll-theme-time-machine
+# theme: jekyll-theme-hacker
+# theme: jekyll-theme-midnight
+# theme: jekyll-theme-primer
+# theme: jekyll-theme-architect
+# theme: jekyll-theme-dinky
+
+## Note
+# These themes only work on GitHub Pages
+# For local development, use jekyll-theme-minimal or comment out theme
+# Preview themes at: https://pages.github.com/themes/
