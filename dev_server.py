@@ -9,28 +9,39 @@ import sys
 import os
 from pathlib import Path
 
-def check_jekyll_installed():
-    """Check if Jekyll is installed"""
-    # Try multiple ways to find Jekyll
-    jekyll_paths = [
-        'jekyll',  # In PATH
-        '/opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll',  # macOS Homebrew
-        '/usr/local/bin/jekyll',  # Alternative location
-    ]
+def check_jekyll_and_bundler():
+    """Check if Jekyll and Bundler are available"""
+    # Check for bundler first
+    try:
+        result = subprocess.run(['bundle', '--version'],
+                              capture_output=True, text=True, check=True)
+        print(f"✅ Bundler found: {result.stdout.strip()}")
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("❌ Bundler not found.")
+        print("💡 Install with: gem install bundler")
+        return False
 
-    for jekyll_path in jekyll_paths:
+    # Check if bundle install has been run
+    if not Path('Gemfile.lock').exists():
+        print("📦 Running bundle install...")
         try:
-            result = subprocess.run([jekyll_path, '--version'],
+            result = subprocess.run(['bundle', 'install'],
                                   capture_output=True, text=True, check=True)
-            print(f"✅ Jekyll found: {result.stdout.strip()}")
-            return True
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            continue
+            print("✅ Bundle install completed")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Bundle install failed: {e}")
+            return False
 
-    print("❌ Jekyll not found in common locations.")
-    print("💡 Install with: gem install jekyll bundler")
-    print("💡 Then install theme: gem install jekyll-theme-tactile jekyll-feed")
-    return False
+    # Test jekyll via bundler
+    try:
+        result = subprocess.run(['bundle', 'exec', 'jekyll', '--version'],
+                              capture_output=True, text=True, check=True)
+        print(f"✅ Jekyll found: {result.stdout.strip()}")
+        return True
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("❌ Jekyll not accessible via bundler.")
+        print("💡 Check your Gemfile and run: bundle install")
+        return False
 
 def run_validation():
     """Run validation before starting server"""
@@ -44,43 +55,22 @@ def run_validation():
         print(f"❌ Validation failed:\n{e.stdout}")
         return False
 
-def find_jekyll_executable():
-    """Find the Jekyll executable path"""
-    jekyll_paths = [
-        'jekyll',  # In PATH
-        '/opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll',  # macOS Homebrew
-        '/usr/local/bin/jekyll',  # Alternative location
-    ]
-
-    for jekyll_path in jekyll_paths:
-        try:
-            subprocess.run([jekyll_path, '--version'],
-                          capture_output=True, check=True)
-            return jekyll_path
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            continue
-    return None
-
 def start_jekyll_server():
     """Start Jekyll development server"""
     print("🚀 Starting Jekyll development server...")
     print("📍 Your site will be available at: http://localhost:4000")
     print("🛑 Press Ctrl+C to stop the server")
 
-    jekyll_exe = find_jekyll_executable()
-    if not jekyll_exe:
-        print("❌ Cannot find Jekyll executable")
-        return
-
     try:
-        # Run jekyll serve with live reload
-        subprocess.run([jekyll_exe, 'serve', '--livereload'],
+        # Use bundler to run jekyll serve with proper gem isolation
+        subprocess.run(['bundle', 'exec', 'jekyll', 'serve', '--livereload'],
                       cwd='.', check=True)
     except KeyboardInterrupt:
         print("\n🛑 Server stopped by user")
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to start Jekyll server: {e}")
-        print("💡 Try installing missing gems: gem install jekyll-theme-tactile jekyll-feed")
+        print("💡 Try running: bundle install")
+        print("💡 Or check Gemfile for missing dependencies")
 
 def show_instructions():
     """Show setup instructions"""
@@ -117,8 +107,8 @@ def main():
     print("🎯 Jekyll Development Server Launcher")
     print()
 
-    # Check Jekyll installation
-    if not check_jekyll_installed():
+    # Check Jekyll and Bundler installation
+    if not check_jekyll_and_bundler():
         print("\n💡 Run: python3 dev_server.py --help")
         sys.exit(1)
 
