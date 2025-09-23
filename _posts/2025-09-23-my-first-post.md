@@ -2,7 +2,7 @@
 layout: post
 title: My First Post
 date: 2025-09-23
-author: Anikita
+author: Antonis Nikitakis
 categories: [blog]
 ---
 
