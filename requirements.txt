@@ -1,0 +1,6 @@
+# Python dependencies for Jekyll blog validation and development tools
+PyYAML>=6.0.0
+
+# Optional: For enhanced validation (uncomment if needed)
+# pyyaml-env-tag>=0.1
+# pathvalidate>=2.5.0
