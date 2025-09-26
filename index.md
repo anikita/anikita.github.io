@@ -8,7 +8,7 @@ title: Home
 Hello! This is a self-reflective, philosophical view of my world.. with a bit of cynicism.
 
 Who am I?
-LinkedIn: https://www.linkedin.com/in/antonis-nikitakis-62544120/
+[LinkedIn](https://www.linkedin.com/in/antonis-nikitakis-62544120/)
 
 ## Latest Posts
 
@@ -23,6 +23,8 @@ LinkedIn: https://www.linkedin.com/in/antonis-nikitakis-62544120/
 ---
 
 {% endfor %}
+
+## View All Posts
 
 **[View all posts →]({{ "/archive/" | relative_url }})**
 
