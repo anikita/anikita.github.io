@@ -24,6 +24,8 @@ LinkedIn: https://www.linkedin.com/in/antonis-nikitakis-62544120/
 
 {% endfor %}
 
+**[View all posts →]({{ "/archive/" | relative_url }})**
+
 ## About
 
 This blog is where I share my thoughts, experiences, and discoveries. Topics include technology, programming, and personal projects.
