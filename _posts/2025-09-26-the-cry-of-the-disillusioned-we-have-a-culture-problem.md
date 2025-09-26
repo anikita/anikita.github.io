@@ -5,7 +5,6 @@ date: 2025-09-26
 author: Antonis Nikitakis
 categories: [blog]
 ---
-## The Cry of the Disillusioned - "We Have a Culture Problem"
 
 ### The Ontology of Meaning in the Corporate World: A Hermeneutic Unraveling
 
