@@ -4,11 +4,13 @@ title: The Cry of the Disillusioned - "We Have a Culture Problem"
 date: 2025-09-26
 author: Antonis Nikitakis
 categories: [blog]
+excerpt_separator: <!-- excerpt-end -->
 ---
 
 ### The Ontology of Meaning in the Corporate World: A Hermeneutic Unraveling
 
 It begins with a familiar refrain in boardrooms, strategy meetings, and post-mortems across industries: *"We have a culture problem."* The phrase echoes through executive suites like a diagnostic label, a convenient shorthand for everything that’s going wrong—low productivity, high turnover, disengagement, innovation stagnation. But beneath this surface-level diagnosis lies a deeper, more insidious truth: **the real issue is not culture as a diffuse social atmosphere, but the absence of *meaning* as an ontological condition of human action.** The culture is not broken; it is *meaning-starved*. And when meaning evaporates, even the most capable minds retreat into silence, compliance, or quiet quitting.
+<!-- excerpt-end -->
 
 We are not dealing with a deficit of process, nor a failure of policy—though those may be symptoms. We are confronting a **crisis of *being* in the corporate world**, a rupture in the hermeneutic loop between what people *do* and what they *believe they are for*. This is the core of the **ontology of meaning in the corporate world**: not a psychological add-on, a motivational poster, or a team-building retreat, but the *fundamental structure of human engagement*—the way employees interpret, inhabit, and invest their existence in the systems they serve.
 
