@@ -5,7 +5,10 @@ title: Home
 
 # Welcome to Antonis Nikitakis Personal Blog
 
-Hello! This is my personal blog built with GitHub Pages.
+Hello! This is a self-reflective, philosophical view of my world.. with a bit of cynicism.
+
+Who am I?
+LinkedIn: https://www.linkedin.com/in/antonis-nikitakis-62544120/
 
 ## Latest Posts
 
