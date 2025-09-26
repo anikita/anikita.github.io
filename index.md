@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{% include custom-header.html %}
+
 # Welcome to Antonis Nikitakis Personal Blog
 
 Hello! This is a self-reflective, philosophical view of my world.. with a bit of cynicism.
@@ -34,6 +36,4 @@ This blog is where I share my thoughts, experiences, and discoveries. Topics inc
 
 Stay tuned for more content!
 
----
-
-*Built with Jekyll and hosted on GitHub Pages*
+{% include custom-footer.html %}

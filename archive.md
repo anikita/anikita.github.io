@@ -4,6 +4,8 @@ title: "All Posts"
 permalink: /archive/
 ---
 
+{% include custom-header.html %}
+
 # All Posts
 
 A complete archive of all blog posts, sorted by publication date.
@@ -23,6 +25,4 @@ A complete archive of all blog posts, sorted by publication date.
 
 {% endfor %}
 
----
-
-*Back to [home]({{ "/" | relative_url }})*
+{% include custom-footer.html %}

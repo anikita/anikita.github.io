@@ -7,6 +7,8 @@ categories: [blog]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
+{% include custom-header.html %}
+
 **The Ontology of Meaning in the Corporate World: A Hermeneutic Unraveling**
 
 It begins with a familiar refrain in boardrooms, strategy meetings, and post-mortems across industries: *"We have a culture problem."* The phrase echoes through executive suites like a diagnostic label, a convenient shorthand for everything that’s going wrong—low productivity, high turnover, disengagement, innovation stagnation. But beneath this surface-level diagnosis lies a deeper, more insidious truth: **the real issue is not culture as a diffuse social atmosphere, but the absence of *meaning* as an ontological condition of human action.** The culture is not broken; it is *meaning-starved*. And when meaning evaporates, even the most capable minds retreat into silence, compliance, or quiet quitting.
@@ -128,3 +130,5 @@ And when that freedom is denied, the system may look busy, but it is "mentally d
 
 2. **Wrzesniewski, A., & Dutton, J. E.** (2001). *Crafting a Job: Revisioning Employees as Active Crafters of Their Work*. Administrative Science Quarterly, 46(2), 219–240.  
    — A seminal paper introducing *job crafting* as a hermeneutic act: employees reshape their roles to align with personal values and purpose, thereby *co-creating* meaning in otherwise rigid systems. This reframes the ontology of meaning as an emergent, participatory process.
+
+{% include custom-footer.html %}

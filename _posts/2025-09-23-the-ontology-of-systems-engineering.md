@@ -7,6 +7,8 @@ categories: [blog]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
+{% include custom-header.html %}
+
 In the quiet hum of a modern city at 3 a.m., when traffic lights cycle through their rhythms, autonomous buses glide along pre-programmed routes, and data pulses through fiber-optic veins beneath the pavement, a system is at work—not merely *functioning*, but *thriving*. This system is **not a machine**, nor a mere assemblage of parts. It is a living, evolving network of intentions, constraints, values, and interpretations. It is a **system of systems**, and its design—its very *being*—cannot be captured by blueprints, flowcharts, or requirements documents alone. To understand how such a system comes into being, we must move beyond the mechanistic metaphors of engineering and enter the realm of **ontology**: the study of what systems *are*, how they come to exist, and how their reality is co-constructed through human and non-human actors.
 <!-- excerpt-end -->
 
@@ -151,6 +153,8 @@ Gadamer, H.-G. (1975). *Truth and Method*. New York: The Seabury Press.
   - Gadamer challenges the objectivity of scientific understanding and emphasizes that meaning arises from historical, cultural, and linguistic traditions.
   - **Key idea**: Understanding is not methodological but dialogical. The “hermeneutic circle” involves a **recursive process** through which parts and wholes inform one another in an evolving understanding.
 
-Heidegger, M. (1962). *Being and Time* (J. Macquarrie & E. Robinson, Trans.). Blackwell Publishers Ltd. (Original work published 1927).
+Heidegger, M. (1962). *Being and Time* (J. Macquarrie & E. Robinson, Trans.). Blackwell Publishers Ltd. (Original work published 1927).
   - Heidegger redefines ontology by exploring the nature of being (Sein) through the lens of human experience (Dasein).
   - **Key idea**: The meaning of being is not given as static essence but is revealed through context, time (temporality), and *involvement* in the world (Being-in-the-world).
+
+{% include custom-footer.html %}
