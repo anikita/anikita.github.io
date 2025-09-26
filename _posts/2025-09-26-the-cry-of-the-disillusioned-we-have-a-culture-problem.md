@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The Cry of the Disillusioned: "We Have a Culture Problem!"
+title: The Cry of the Disillusioned - We Have a Culture Problem
 date: 2025-09-26
 author: Antonis Nikitakis
 categories: [blog]
