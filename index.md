@@ -32,7 +32,7 @@ Who am I?
 
 ## About
 
-This blog is where I share my thoughts, experiences, and discoveries. Topics include technology, programming, and personal projects.
+This blog is where I share my thoughts, experiences, and discoveries. Topics include technology, philosophy and society.
 
 Stay tuned for more content!
 
