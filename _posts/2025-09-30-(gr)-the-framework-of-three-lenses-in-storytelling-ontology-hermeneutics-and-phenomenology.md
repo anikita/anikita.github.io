@@ -1,6 +1,6 @@
 ---
 layout: default
-title: (greek) The Three-Lens Framework for Conceptual Storytelling: Ontology, Hermeneutics, and Phenomenology
+title: "(greek) The Three-Lens Framework for Conceptual Storytelling: Ontology, Hermeneutics, and Phenomenology"
 date: 2025-09-30
 author: Antonis Nikitakis
 categories: [blog]
