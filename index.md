@@ -14,7 +14,9 @@ Who am I?
 
 ## Important Disclaimer
 
-⚠️ **About Content Creation**: The articles on this blog are developed through an iterative process that combines Large Language Models (LLMs) with extensive human (my) oversight and refinement. Given the broad scientific and philosophical scope of topics covered, it is impossible for me to fact-check every detail comprehensively. Therefore, **mistakes or inaccuracies may be present**. Please read with a critical eye and consider cross-referencing important information from authoritative sources.
+⚠️ **About Content Creation**: The articles on this blog are developed through an iterative procedure that combines a multi-step Large Language Models (LLMs) process with human (my) oversight and refinement. Given the broad scientific and philosophical scope of topics covered, it is impossible for me to fact-check every detail comprehensively. Therefore, **mistakes or inaccuracies may be present**. Please read with a critical eye and consider cross-referencing important information from authoritative sources.
+
+What I would like for me to be the takeaway from each article is the core philosophical argument (the motivation if you will). The details could be less polished from time to time but that's what it is.
 
 ## Latest Posts
 
