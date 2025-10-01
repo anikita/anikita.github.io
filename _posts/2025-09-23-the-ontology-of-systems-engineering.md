@@ -7,10 +7,9 @@ categories: [blog]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-{% include custom-header.html %}
-
 In the quiet hum of a modern city at 3 a.m., when traffic lights cycle through their rhythms, autonomous buses glide along pre-programmed routes, and data pulses through fiber-optic veins beneath the pavement, a system is at work—not merely *functioning*, but *thriving*. This system is **not a machine**, nor a mere assemblage of parts. It is a living, evolving network of intentions, constraints, values, and interpretations. It is a **system of systems**, and its design—its very *being*—cannot be captured by blueprints, flowcharts, or requirements documents alone. To understand how such a system comes into being, we must move beyond the mechanistic metaphors of engineering and enter the realm of **ontology**: the study of what systems *are*, how they come to exist, and how their reality is co-constructed through human and non-human actors.
 <!-- excerpt-end -->
+{% include custom-header.html %}
 
 ---
 
