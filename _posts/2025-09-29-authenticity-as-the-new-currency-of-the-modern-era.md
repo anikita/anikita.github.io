@@ -7,12 +7,11 @@ categories: [blog]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-{% include custom-header.html %}
-
-
 In the dim glow of a smartphone screen at 2:17 a.m., a young woman scrolls through her social media feed—images of sunsets over Santorini, laughter-filled dinners with friends, a curated gallery of professional achievements, and a video of a friend "meditating" in a forest, eyes closed, breathing deeply. She pauses. Something feels off. The light is too perfect. The birdsong too synchronized. The friend’s face, just slightly too still. She taps the screen. The video replays. Then, a second version appears—same setting, same friend, but now the eyes are open, and the voice says, *"I made this to show you what I *wish* I felt."* The caption reads: *"This is my truth. This is me."* But is it?
 
 <!-- excerpt-end -->
+{% include custom-header.html %}
+
 
 This moment, this flicker of doubt, this quiet erosion of trust—is not merely a glitch in digital perception. It is the symptom of a deeper ontological crisis: **the erosion of authenticity as a stable ground for human existence**. In an age where everything can be copied, regenerated, or deepfaked; where a face, a voice, a memory, even a belief can be algorithmically reconstructed with near-perfect fidelity, we face a paradox: **the more we can represent the self, the less we can be sure the self is real**. And in this paradox, authenticity—once a moral virtue, a cultural ideal, a psychological aspiration—has become the **new currency of the modern era**. Not because it is more ethical, but because it is **existentially necessary**.
 
