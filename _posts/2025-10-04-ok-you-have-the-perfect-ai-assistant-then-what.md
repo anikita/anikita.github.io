@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "You Have the Perfect AI Assistant, So What?"
+title: "Ok! You Have the Perfect AI Assistant, Then What?"
 date: 2025-10-04
 author: Antonis Nikitakis
 categories: [blog]
@@ -9,12 +9,12 @@ excerpt_separator: <!-- excerpt-end -->
 
  We live in an age where the AI assistant is no longer a novelty—it is a companion, a collaborator, a ghost in the machine that drafts emails, debugs code, summarizes papers, and even composes poetry. We marvel at its fluency, its speed, its tireless precision. *It can do so much*, we say. And yes, it can. 
 
-But the deeper question, the one that lingers like a quiet echo after the dazzle fades is: **So what?**
+But the deeper question, the one that lingers like a quiet echo after the dazzle fades is: **Then what?**
 
 <!-- excerpt-end -->
 {% include custom-header.html %}
 
-## You Have the Perfect AI Assistant, So What?
+## Ok! You Have the Perfect AI Assistant, Then What?
 
 We are obsessed with *what* the AI can do for us. That is natural. Efficiency is seductive. It aligns with our oldest evolutionary impulse: to solve problems with minimal effort. We want automation, delegation, frictionless living. The perfect AI assistant promises to relieve us of cognitive labor—the drudgery of search, the tedium of repetition, the anxiety of uncertainty. And in this, it delivers. But in outsourcing the *doing*, we risk forgetting the *becoming*.
 
@@ -59,7 +59,7 @@ When we use AI, we are not just retrieving information—we are engaging in a **
 
 > The assistant offers a path; we must choose whether to walk it blindly, or to question the terrain.
 
-### So What?
+### Then What?
 
 The perfect AI assistant exists. It can write, reason, create, simulate. But its perfection is not measured by what it does for us. It is measured by **what it awakens in us**. The real transformation is not in the output, but in the **internal shift**: the moment we stop asking *Can it do this?* and start asking *What does this make me become?*
 
