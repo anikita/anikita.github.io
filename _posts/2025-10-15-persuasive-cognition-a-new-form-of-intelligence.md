@@ -116,8 +116,6 @@ And start asking: *What kind of influence is it creating? And what kind of respo
  
 Persuasive cognition forces us to confront a new epistemological landscape: one where **influence precedes understanding**, and **belief is shaped before it is earned**.
 
-{% include custom-footer.html %}
-
 ---
 
 **Notable References**
@@ -127,3 +125,6 @@ Persuasive cognition forces us to confront a new epistemological landscape: one 
 
 - Turing, A. M. (1950). *Computing Machinery and Intelligence*. *Mind*, 59(236), 433–460.  
   → Establishes the behavioral criterion for intelligence, implicitly embracing persuasion as a valid metric—while leaving open the ontological gap that LLMs now expose.
+
+  {% include custom-footer.html %}
+
