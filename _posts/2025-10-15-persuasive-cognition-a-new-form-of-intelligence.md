@@ -85,17 +85,15 @@ To understand persuasive cognition and why it matters, we must first confront wh
 #### **Intentionality: No "Aboutness"**
 Human thought is *about* something. We think *about* love, *about* justice, *about* pain. This is *intentionality*—the capacity to represent the world. LLMs have no such "aboutness." They process tokens, not meanings. The word "justice" appears in their training data millions of times, but it has no *referent* in their experience. They don’t *care* about justice. They *predict* it.
 #### **Normativity: No Moral or Logical Grounding**
-Humans evaluate claims not just by plausibility, but by *value*. We ask: *Is this right? Is this fair? Is this true?* LLMs have no such evaluative faculty. They optimize for $P(\text{output} | \text{input})$, not for $P(\text{truth})$. They can generate a *perfect* argument for climate denial and a *perfect* argument for climate action—with equal fluency. They have no *skin in the game*.
+ Humans evaluate claims not just by plausibility, but by *value*. We ask: *Is this right? Is this fair? Is this true?* LLMs have no such evaluative faculty. They optimize for **$P(output | input)$**, not for **$P(truth)$**. They can generate a *perfect* argument for climate denial and a *perfect* argument for climate action—with equal fluency. They have no *skin in the game*.
 #### **Agency: No Responsibility**
 Agency requires *choice*, *commitment*, and *accountability*. LLMs do not choose. They sample from a probability distribution. They do not *stand behind* their outputs. When an LLM gives harmful advice, it cannot *regret* it. It cannot *apologize*. It cannot *learn* in the human sense—because learning implies *change of belief*, not just update of weights.
 
 > **LLMs simulate cognition. But beneath the surface, there is no cognition, no deeper understanding, only computation. According to Searle—just symbol manipulation.**
 
 And it's not that we are intentionally making systems that are unable to understand, perceive meaning, or comprehend responsibility; it is because **we have no idea how to make them do so.**
-
-Persuasive cognition is not an AI limitation—it is an emergent **feature** which reveals how good the system has become. The question it raises is how **we, the humans,** will respond to it.
-
-Persuasive cognition is not an AI limitation or a flaw. Quite the opposite: As an emergent **feature**, it reveals how good the system has become at following our instructions—our preferences and likings. The question it raises is how **we, the humans,** will have respond to it.
+ 
+Persuasive cognition is not an AI limitation or a flaw. Quite the opposite: As an emergent **feature**, it reveals how good the system has become at following our instructions—our preferences and likings. The question it raises is how **we, the humans,** will have to respond to it.
 
 ### **V. The New Epistemology: Influence Before Understanding**
 
