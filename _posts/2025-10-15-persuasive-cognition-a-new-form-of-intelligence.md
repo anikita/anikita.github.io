@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Persuasive Cognition: A new form of intelligence"
+title: "Persuasive Cognition: A new form of intelligence?"
 date: 2025-10-15
 author: Antonis Nikitakis
 categories: [blog]
@@ -12,10 +12,17 @@ We are entering an era where intelligence is no longer about what a system *know
 <!-- excerpt-end -->
 {% include custom-header.html %}
 
-**Persuasive Cognition a new form of intelligence** 
+**Persuasive Cognition a new form of intelligence?** 
 
 The ability to shape human understanding *without* possessing it, forces us to ask: if a machine can make us *feel* convinced, *act* as if it understands, and *trust* its coherence, **does it matter whether it *does*?** 
 The answer lies not in the machine, but in the mirror it holds up to us: a society increasingly outsourcing judgment to systems that simulate wisdom while lacking any capacity for understanding and responsibility.
+
+**Why Persuasive Cognition and not Persuasive AI?**
+
+The term 'Persuasive Cognition' is deliberately paradoxical. It assigns the designation of 'Cognition' to systems that are fundamentally **devoid of** the biological and subjective foundations of human thought: namely, meaning, true understanding, and intentionality. This highlights the gap between functional performance and authentic mental capacity.
+
+Ontologically, it remains a hollow simulation—essentially mimicry. Yet, it achieves the functional status of 'Cognition' through the mechanism of relentless, seamless **persuasion**. This mechanism is a profound **cognitive bypass**: it implants ideas, decisions, and conclusions so perfectly that we experience them as originating from within ourselves. 
+ 
 
 ## **I. The Ghost in the Turing Test: When Behavior Becomes Belief**
 
@@ -82,9 +89,13 @@ Humans evaluate claims not just by plausibility, but by *value*. We ask: *Is thi
 #### **Agency: No Responsibility**
 Agency requires *choice*, *commitment*, and *accountability*. LLMs do not choose. They sample from a probability distribution. They do not *stand behind* their outputs. When an LLM gives harmful advice, it cannot *regret* it. It cannot *apologize*. It cannot *learn* in the human sense—because learning implies *change of belief*, not just update of weights.
 
-> **LLMs simulate cognition. But beneath the surface, there is no cognition. Only computation. It is just symbol manipulation, according to Searle.**
+> **LLMs simulate cognition. But beneath the surface, there is no cognition, no deeper understanding, only computation. According to Searle—just symbol manipulation.**
+
+And it's not that we are intentionally making systems that are unable to understand, perceive meaning, or comprehend responsibility; it is because **we have no idea how to make them do so.**
 
 Persuasive cognition is not an AI limitation—it is an emergent **feature** which reveals how good the system has become. The question it raises is how **we, the humans,** will respond to it.
+
+Persuasive cognition is not an AI limitation or a flaw. Quite the opposite: As an emergent **feature**, it reveals how good the system has become at following our instructions—our preferences and likings. The question it raises is how **we, the humans,** will have respond to it.
 
 ## **V. The New Epistemology: Influence Before Understanding**
 
@@ -98,13 +109,13 @@ We are entering a world where **influence precedes understanding**.
 
 This is not just a small technical shift. It is a **cultural and epistemological departure**.
 
-We no longer ask: *Is this true?*  
-We ask: *Does it feel right? Does it sound credible? Does it resonate?*
+Because we no longer ask: *Is this true?*  
+  We ask: *Does it feel right? Does it sound credible? Does it resonate?*
 
-And the LLM answers not with truth, but with **rhetorical plausibility**.
+And the LLM answers: not with truth, coming from understanding, but with **rhetorical plausibility**.
 
 ### **A new cognitive phenomenon**
-We do not need to *define* persuasive cognition as a *new kind of intelligence* to validate it. We need to *recognize* it as a **new cognitive phenomenon**—one that demands new conceptual and ethical frameworks.
+We do not need to *define* persuasive cognition as a *new kind of intelligence* to validate it. We need to *recognize* it as an **evolving cognitive phenomenon**—one that demands new conceptual and ethical frameworks.
 
 We’re outsourcing judgment to systems that *feel* intelligent but lack intent, ethics, or accountability. This is not about labeling. It is about **awareness**.
 - Awareness that **fluency is not understanding**.  
@@ -126,5 +137,5 @@ Persuasive cognition forces us to confront a new epistemological landscape: one 
 - Turing, A. M. (1950). *Computing Machinery and Intelligence*. *Mind*, 59(236), 433–460.  
   → Establishes the behavioral criterion for intelligence, implicitly embracing persuasion as a valid metric—while leaving open the ontological gap that LLMs now expose.
 
-  {% include custom-footer.html %}
+{% include custom-footer.html %}
 
