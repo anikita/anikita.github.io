@@ -12,7 +12,7 @@ We are entering an era where intelligence is no longer about what a system *know
 <!-- excerpt-end -->
 {% include custom-header.html %}
 
-## **Persuasive Cognition a new form of intelligence?** 
+## **Persuasive Cognition: a new form of intelligence?** 
 
 The ability to shape human understanding *without* possessing it, forces us to ask: if a machine can make us *feel* convinced, *act* as if it understands, and *trust* its coherence, **does it matter whether it *does*?** 
 The answer lies not in the machine, but in the mirror it holds up to us: a society increasingly outsourcing judgment to systems that simulate wisdom while lacking any capacity for understanding and responsibility.
