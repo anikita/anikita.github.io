@@ -12,7 +12,7 @@ We are entering an era where intelligence is no longer about what a system *know
 <!-- excerpt-end -->
 {% include custom-header.html %}
 
-**Persuasive Cognition a new form of intelligence?** 
+## **Persuasive Cognition a new form of intelligence?** 
 
 The ability to shape human understanding *without* possessing it, forces us to ask: if a machine can make us *feel* convinced, *act* as if it understands, and *trust* its coherence, **does it matter whether it *does*?** 
 The answer lies not in the machine, but in the mirror it holds up to us: a society increasingly outsourcing judgment to systems that simulate wisdom while lacking any capacity for understanding and responsibility.
@@ -24,7 +24,7 @@ The term 'Persuasive Cognition' is deliberately paradoxical. It assigns the desi
 Ontologically, it remains a hollow simulation—essentially mimicry. Yet, it achieves the functional status of 'Cognition' through the mechanism of relentless, seamless **persuasion**. This mechanism is a profound **cognitive bypass**: it implants ideas, decisions, and conclusions so perfectly that we experience them as originating from within ourselves. 
  
 
-## **I. The Ghost in the Turing Test: When Behavior Becomes Belief**
+### **I. The Ghost in the Turing Test: When Behavior Becomes Belief**
 
 Alan Turing, in his seminal 1950 paper *"Computing Machinery and Intelligence,"* proposed the **Imitation Game**—a test where a machine’s intelligence is judged by its ability to *behave indistinguishably* from a human. Crucially, **Turing did not demand understanding**. He wrote:  
 > “We do not wish to penalize a machine for not being able to feel, or for not having a soul, but only for not being able to *talk* like a human.”
@@ -43,14 +43,14 @@ It reveals that **the system doesn’t need to understand to be persuasive**. We
 
 > It is the **ghost in the Turing test**: not the machine pretending to think, but the human *believing* the machine thinks—*because it speaks so well*.
  
-## **II. The Emergence of Persuasive Cognition: When Influence Replaces Understanding**
+### **II. The Emergence of Persuasive Cognition: When Influence Replaces Understanding**
 
-### LLMs: Architects of Linguistic Mirage
+#### LLMs: Architects of Linguistic Mirage
 Modern LLMs are not built to *know*. In their pre-training phase (self-supervision), they are built to *complete*. Trained on vast corpora of human text, they learn **statistical patterns of linguistic coherence**, not the meanings behind them. 
 
 Their objective function is not truth or understanding, but **likelihood**—the probability that a given token follows another in a sequence. They essentially learn to mimicking what a human would say when asked the same question.
 
-### Alignment with human preference
+#### Alignment with human preference
 In a subsequent phase, LLMs are fine-tuned not just on data, but on **human feedback**. Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) train models to align with *what humans prefer to hear*—not what is true, but what is *satisfying*, *reassuring*, or *convincing*.
 
 This creates a **persuasive feedback loop**:  
@@ -61,7 +61,7 @@ This creates a **persuasive feedback loop**:
 
 The result? A system that is **cognitively persuasive but semantically hollow**.
 
-## **III. The Likeness Deception: When Fluency Feels Like Truth**
+### **III. The Likeness Deception: When Fluency Feels Like Truth**
 
 There is a cognitive trap embedded in human psychology: **we equate linguistic fluency with cognitive authority**. This is the *semantic illusion*—the false inference that because a system can produce *coherent, plausible, and contextually appropriate* language, it must *understand* what it says.
 
@@ -79,7 +79,7 @@ But the decision was not co-authored with understanding. It was **co-authored wi
 The danger is not that the LLM is wrong. The danger is that we **stop questioning**. 
 We outsource not just labor, but *judgment*—the very faculty that distinguishes human agency.
 
-## **IV. The Ontological Void: What LLMs Lack**
+### **IV. The Ontological Void: What LLMs Lack**
 
 To understand persuasive cognition and why it matters, we must first confront what it is *not*. LLMs lack the core features that define human cognition:
 #### **Intentionality: No "Aboutness"**
@@ -97,7 +97,7 @@ Persuasive cognition is not an AI limitation—it is an emergent **feature** w
 
 Persuasive cognition is not an AI limitation or a flaw. Quite the opposite: As an emergent **feature**, it reveals how good the system has become at following our instructions—our preferences and likings. The question it raises is how **we, the humans,** will have respond to it.
 
-## **V. The New Epistemology: Influence Before Understanding**
+### **V. The New Epistemology: Influence Before Understanding**
 
 We are entering a world where **influence precedes understanding**. 
 
@@ -114,7 +114,7 @@ Because we no longer ask: *Is this true?*
 
 And the LLM answers: not with truth, coming from understanding, but with **rhetorical plausibility**.
 
-### **A new cognitive phenomenon**
+### **A new Cognitive Phenomenon**
 We do not need to *define* persuasive cognition as a *new kind of intelligence* to validate it. We need to *recognize* it as an **evolving cognitive phenomenon**—one that demands new conceptual and ethical frameworks.
 
 We’re outsourcing judgment to systems that *feel* intelligent but lack intent, ethics, or accountability. This is not about labeling. It is about **awareness**.
